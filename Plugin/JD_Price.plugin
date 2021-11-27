@@ -1,5 +1,6 @@
 [Script]
-http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=1, script-path=https://raw.githubusercontent.com/kan3Git/Script/main/jd_price_lite.js, tag=京东比价(非弹窗)
+#http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=1, script-path=https://raw.githubusercontent.com/kan3Git/Script/main/jd_price_lite.js, tag=京东比价(非弹窗)
+http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=1, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jd_price_lite.js, tag=京东比价(非弹窗)
 
 [MITM]
 hostname = api.m.jd.com
